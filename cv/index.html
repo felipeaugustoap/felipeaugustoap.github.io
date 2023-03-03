@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+
+sempre usamos index.html para a página inicial
+
+<!DOCTYPE html> usamos para indicar que vamos a trabalhar com um documento html5
+-->
+
+<html lang= "pt-br">
+
+<!--
+usamos lang para indicar o idioma do website
+-->
+<head>
+<meta charset= "UTF-8">
+<meta name = "description" content = "CV Felipe Augusto, estou estudando programação e começamos por HTML5 e CSS">
+<!-- usamos meta para agregar informações adicionais no site
+
+charset é para indicar a configuração dos caracteres, usamos UTF-8 para ter os caracteres especiais de latinoamerica 
+
+name para o nome do website
+
+content para uma breve descição do website
+-->
+<title>CV FELIPE AUGUSTO</title>
+
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;margin: 0;">
+<!-- 
+<body> usamos para toda a parte visível do website;
+style = é para alterar o design da tag.
+font-family: usamos para alterar a fonte usada, alteramos em <body> para alterar de uma só vez a fonte usada na página.
+margin: são espaços que separa os elementos que se coloca nos limites de outro elemento.
+-->
+
+
+<header style="background-color: #090d29; color: white; text-align: center; padding: 16px; ">
+<!-- 
+<headers> usamos para o encabeçado da página ou seção;
+style = é para alterar o design da tag.
+backgroud-color: usamos para alterar a cor de fundo da tag em questão;
+color: é para alterar a cor da fonte.
+padding: é para inserir um espaço vazio ao redor da tag.
+
+
+-->
+<h1 style = "display: inline-block; width: 400px; font-weight: bold;" >CV de Felipe Augusto</h1>
+<!-- 
+<p> usamos para parágrafo 
+
+style = é para alterar o design da tag.
+
+display vem como alinhamento inicial block, ou seja, um elemento abaixo do outro, com o atributo "display: inline-block", alteramos para ambas tags <p> ficarem na mesma linha.
+
+width é para dimensionar a largura do 'block'
+
+font-weight: é para alterar o grossor da fonte, ou seja, o quão grosso é o negrito.
+
+-->
+<p style = "display: inline-block; width: 300px;">Estudante de programação</p>
+
+</header>
+
+<div style="background-color: #dbd7d9; color: black;  text-align: center;padding: 10px;">
+<!-- 
+<div> se usa para criar seções ou agrupar elementos dentro da página
+-->
+Começei a estudar promagração, começo pela linguagem de marcação HTML5 e CSS, logo mais começaremos com JavaScript.
+
+</div>
+<section>
+<!--
+   <section> é usado para separar seções na página web. Não altera a visualização da página.
+-->
+    <div style="width: 960px; margin-right: auto; margin-left: auto;">
+<!--
+width: informa a largura do bloque da tag;
+background-color: é para a cor de fundo do bloque;
+"margin-right: auto; margin-left: auto;" é para distribuir de forma automática e por igual o espaço vazio de ambos lados da página;
+
+-->
+        <div>
+            <div style="display: inline-block; width: 68%; vertical-align: top;">
+                <h3 style="font-size: 36px; font-weight: 700;">Educação</h3>
+                <div>
+                    <dl>
+                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Desarollo Web Professional</dt>
+                        <dd style="margin: 0;">2022 - Cursando. CódigoFacilito</dd>
+                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Curso HTML5 e CSS3 Profissional</dt>
+                        <dd style="margin: 0;">2023 - Cursando. Curso em Vídeo</dd>
+                    </dl>
+                    <!--
+                        font-size: para o tamanho da fonte;
+                        text-transform: para alterar todas as letras a maiúsculas;
+                        margin-bottom: para inserir uma margem abaixo de 12px;
+                        margin-top: para inserir uma margem acima de 36px;
+                    -->
+                </div>
+            </div>
+            <div style="display: inline-block; width: 30%; margin-top: 20px; vertical-align: top;">
+                <img src="imagens/felipe500.PNG" width="300px" alt="Foto Perfil">
+            </div>
+        </div>    
+            <div style="margin-top: 50px;">
+                    <h3 style="font-size: 36px; font-weight: 700;">Experiência Profissional</h3>
+                    <div>
+                    <dl>
+                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">Universal Support S.A.</dt>
+                        <dd>2021 - Atualmente. Teleoperador Atenção ao Cliente.</dd>
+                        <dt style="font-size: 22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px;">SR Martins Corretora de Seguros</dt>
+                        <dd>2014-2019 - Consultor de Seguros.</dd>                
+                    </dl>
+                    </div>
+            </div>        
+            <div style="margin-top: 50px;">
+                <h3 style="font-size: 36px; font-weight: 700;">Habilidade</h3>
+                <ul style="margin-top: 12px; padding: 0px;">
+                    <li style="margin-top: 16px;">Paquete Office</li>
+                    <li style="margin-top: 16px;">Ofimática</li>
+                    <li style="margin-top: 16px;">Atenção ao cliente</li>
+                    <li style="margin-top: 16px;">Vendas</li>
+                    <li style="margin-top: 16px;">Pós-venda</li>
+                    <!-- 
+                    <ul> para lista não ordenada;
+                    margin-top: para adicionar margem a parte superior da tag;
+                    <li> para cada item da lista.    
+                    -->
+                </ul>
+            </div>
+            <div style="margin-top: 50px;">
+                <h3 style="font-size: 36px; font-weight: 700;">Redes Sociais</h3>
+                <ul style="margin-top: 12px; padding: 0px;">
+                    <li style="margin-top: 16px;">
+                        <p><img src="imagens/icone-instagram.png" alt="Logo Instagram"><a href="https://www.instagram.com/felipeaugustoap/" target="_blank" >/felipeaugustoap</a> - Me segue lá no Instagram.</p>
+                    </li>
+                    <li style="margin-top: 16px;">
+                        <p>
+                        <img src="imagens/icone-github.png" alt="Logo Github">
+                        <a href="https://github.com/felipeaugustoap">/felipeaugustoap</a> - Acessa meu repositório público no Github
+                        </p>
+                    </li>
+                    <li style="margin-top: 16px;">
+                        <p>
+                        <img src="imagens/icone-linkedin.png" alt="Logo Linkedin">
+                        <a href="https://www.linkedin.com/in/felipeaugustoap/">/felipeaugustoap</a> - Me adiciona lá no Linkedin
+                        </p>
+                    </li>
+                    <li style="margin-top: 16px;">
+                        <p>
+                        <img src="imagens/icone-facebook.png" alt="Logo Facebook">
+                        <a href="https://www.facebook.com/felipe.augusto.ap">/felipe.augusto.ap</a> - Me segue lá no Facebook
+                        </p>
+                    </li>
+                   
+                    <!-- 
+                    <ul> para lista não ordenada;
+                    margin-top: para adicionar margem a parte superior da tag;
+                    <li> para cada item da lista.    
+                    -->
+                </ul>
+            </div>
+         
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
